@@ -1,4 +1,4 @@
-Source: linux-kernel-gxde-loong
+Source: linux-kernel-gxde-loong64
 Section: utils
 Priority: optional
 Maintainer: gfdgd_xi <3025613752@qq.com>
@@ -6,10 +6,10 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://gitee.com/GXDE-OS/linux-kernel-gxde-loong64
 
-Package: linux-kernel-gxde-loong
-Architecture: any
+Package: linux-kernel-gxde-loong64
+Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
