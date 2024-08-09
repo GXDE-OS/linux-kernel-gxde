@@ -1,0 +1,5 @@
+linux-kernel-gxde-loong (6.10.3-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- gfdgd_xi <3025613752@qq.com>  Fri, 09 Aug 2024 08:32:15 +0800

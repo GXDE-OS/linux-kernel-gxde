@@ -1,0 +1,18 @@
+Source: linux-kernel-gxde-loong
+Section: utils
+Priority: optional
+Maintainer: gfdgd_xi <3025613752@qq.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+
+Package: linux-kernel-gxde-loong
+Architecture: any
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-headers-6.10.3-loong64-4k-pagesize-gxde-desktop,
+ linux-image-6.10.3-loong64-4k-pagesize-gxde-desktop
+Description: GXDE Kernel For loong64
