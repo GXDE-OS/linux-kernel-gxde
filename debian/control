@@ -13,6 +13,6 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.10.3-loong64-4k-pagesize-gxde-desktop,
- linux-image-6.10.3-loong64-4k-pagesize-gxde-desktop
+ linux-image-6.10.4-loong64-4k-pagesize-gxde-desktop+,
+ linux-headers-6.10.4-loong64-4k-pagesize-gxde-desktop+
 Description: GXDE Kernel For loong64
