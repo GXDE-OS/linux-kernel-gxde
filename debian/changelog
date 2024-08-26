@@ -1,4 +1,4 @@
-linux-kernel-gxde-loong64 (6.10.4-1) UNRELEASED; urgency=medium
+linux-kernel-gxde-loong64 (2024.08.26) UNRELEASED; urgency=medium
 
   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
