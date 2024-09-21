@@ -1,4 +1,4 @@
-Source: linux-kernel-gxde-loong64
+Source: linux-kernel-gxde
 Section: utils
 Priority: optional
 Maintainer: gfdgd_xi <3025613752@qq.com>
@@ -6,7 +6,7 @@ Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 Standards-Version: 4.6.2
-Homepage: https://gitee.com/GXDE-OS/linux-kernel-gxde-loong64
+Homepage: https://gitee.com/GXDE-OS/linux-kernel-gxde
 
 Package: linux-kernel-gxde-i386
 Architecture: i386
@@ -53,11 +53,38 @@ Depends:
  linux-image-5.10.0-arm64-desktop
 Description: GXDE Kernel For arm64
 
-Package: linux-kernel-gxde-loong64
+Package: linux-kernel-oldstable-gxde-arm64
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-headers-6.11.0-arm64-desktop-hwe-gxde-hisilicon,
+ linux-image-6.11.0-arm64-desktop-hwe-gxde-hisilicon,
+Description: GXDE Kernel For arm64 (debian)
+
+Package: linux-kernel-gxde-mips64el
+Architecture: mips64el
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-loongson-3,
+ linux-headers-loongson-3
+Description: GXDE Kernel For loong64
+
+Package: linux-kernel-oldstable-gxde-mips64el
+Architecture: mips64el
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-headers-5.10.205-geeklogic,
+ linux-image-5.10.205-geeklogic
+Description: GXDE Kernel For loong64
+
+Package: linux-kernel-gxde
 Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.10.4-loong64-4k-pagesize-gxde-desktop+,
- linux-headers-6.10.4-loong64-4k-pagesize-gxde-desktop+
+ linux-image-loong64,
+ linux-headers-loong64
 Description: GXDE Kernel For loong64
