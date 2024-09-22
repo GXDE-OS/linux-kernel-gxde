@@ -1,5 +1,5 @@
-linux-kernel-gxde (2024.09.21) UNRELEASED; urgency=medium
+linux-kernel-gxde (2024.09.22) UNRELEASED; urgency=medium
 
   * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 21 Sep 2024 17:43:23 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 22 Sep 2024 11:35:05 +0800
