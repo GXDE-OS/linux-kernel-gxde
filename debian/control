@@ -49,8 +49,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.11.0-arm64-desktop-hwe-gxde-hisilicon,
- linux-image-6.11.0-arm64-desktop-hwe-gxde-hisilicon,
+ linux-headers-6.11.3-gxde-hwe-hisilicon,
+ linux-image-6.11.3-gxde-hwe-hisilicon,
 Description: GXDE Kernel For arm64
 
 Package: linux-kernel-oldstable-gxde-arm64

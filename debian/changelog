@@ -1,5 +1,5 @@
-linux-kernel-gxde (2024.10.01) UNRELEASED; urgency=medium
+linux-kernel-gxde (2024.10.11) UNRELEASED; urgency=medium
 
-  * Initial release. (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Update: arm kernel
 
  -- gfdgd_xi <3025613752@qq.com>  Tue, 01 Oct 2024 12:43:58 +0800
