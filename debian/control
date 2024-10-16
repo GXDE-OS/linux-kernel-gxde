@@ -78,7 +78,7 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-dtb-current-arm64,
+ linux-image-current-arm64,
  linux-headers-current-arm64
 Description: GXDE Kernel For phytium (debian)
 

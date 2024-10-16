@@ -1,5 +1,5 @@
-linux-kernel-gxde (2024.10.14) UNRELEASED; urgency=medium
+linux-kernel-gxde (2024.10.15-1) UNRELEASED; urgency=medium
 
-  * Update: arm kernel and phytium and armbian
+  * Update: arm kernel and phytium and armbian(Image)
 
  -- gfdgd_xi <3025613752@qq.com>  Tue, 01 Oct 2024 12:43:58 +0800
