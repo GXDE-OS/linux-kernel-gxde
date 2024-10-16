@@ -67,10 +67,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-5.4.18-99,
- linux-headers-5.4.18-99-generic,
- linux-image-5.4.18-99-generic,
- linux-modules-5.4.18-99-generic
+ linux-image-5.10.0-arm64-desktop,
+ linux-headers-5.10.0-arm64-desktop
 Description: GXDE Kernel For phytium (debian)
 
 Package: linux-kernel-armbian-gxde-arm64
@@ -80,7 +78,7 @@ Depends:
  ${misc:Depends},
  linux-image-current-arm64,
  linux-headers-current-arm64
-Description: GXDE Kernel For phytium (debian)
+Description: GXDE Kernel For phytium (armbian)
 
 Package: linux-kernel-gxde-mips64el
 Architecture: mips64el
