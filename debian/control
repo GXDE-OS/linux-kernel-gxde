@@ -95,7 +95,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  linux-headers-4.19.0-loongson-3-desktop,
- inux-image-4.19.0-loongson-3-desktop
+ linux-image-4.19.0-loongson-3-desktop
 Description: GXDE Kernel For mips64el
 
 Package: linux-kernel-gxde-loong64
