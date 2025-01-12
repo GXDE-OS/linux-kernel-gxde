@@ -1,7 +1,8 @@
-linux-kernel-gxde (2025.01.09) UNRELEASED; urgency=medium
+linux-kernel-gxde (2025.01.12) UNRELEASED; urgency=medium
 
   * Update: arm kernel and phytium and armbian(Image)
   * 修复 mips 架构虚包依赖错误的问题
   * Update: arm 6.12.8
+  * 更新 i386、amd64 oldstable 内核
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 02 Nov 2024 12:17:47 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 12 Jan 2025 09:45:29 +0800
