@@ -106,3 +106,12 @@ Depends:
  linux-image-loong64,
  linux-headers-loong64
 Description: GXDE Kernel For loong64
+
+Package: linux-kernel-loongnix-gxde-loong64
+Architecture: loong64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.52-loong64,
+ linux-headers-6.6.52-loong64
+Description: GXDE Kernel For loong64
