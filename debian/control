@@ -115,3 +115,12 @@ Depends:
  linux-image-6.6.52-loong64,
  linux-headers-6.6.52-loong64
 Description: GXDE Kernel For loong64
+
+Package: linux-kernel-gxde-riscv64
+Architecture: riscv64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-riscv64,
+ linux-headers-riscv64
+Description: GXDE Kernel For loong64
