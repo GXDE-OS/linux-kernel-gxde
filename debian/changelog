@@ -1,4 +1,4 @@
-linux-kernel-gxde (2025.04.13) UNRELEASED; urgency=medium
+linux-kernel-gxde (2025.04.26) UNRELEASED; urgency=medium
 
   * Update: arm kernel and phytium and armbian(Image)
   * 修复 mips 架构虚包依赖错误的问题
@@ -7,5 +7,6 @@ linux-kernel-gxde (2025.04.13) UNRELEASED; urgency=medium
   * 新增 loongnix 内核
   * 更新 arm hisilicon 内核 6.12.23，支持zram-swap
   * 更新 oldstable
+  * 更新 phytium 内核
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 13 Apr 2025 09:44:28 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 26 Apr 2025 21:40:14 +0800
