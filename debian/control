@@ -104,7 +104,7 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
  linux-headers-4.19.0-loongson-3-desktop,
- linux-image-4.19.0-loongson-3-desktop
+ linux-image-4.19.0-loongson-3-desktop,
 Description: GXDE Kernel For mips64el
 
 Package: linux-kernel-gxde-loong64
@@ -112,18 +112,18 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-loong64,
- linux-headers-loong64
+ linux-image-loong64 | linux-image-deepin-loong64,
+ linux-headers-loong64 | linux-headers-deepin-loong64,
 Description: GXDE Kernel For loong64
 
-Package: linux-kernel-loongnix-gxde-loong64
+Package: linux-kernel-hwe-gxde-loong64
 Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.52-loong64,
- linux-headers-6.6.52-loong64
-Description: GXDE Kernel For loong64
+ linux-image-deepin-hwe-loong64,
+ linux-headers-deepin-hwe-loong64,
+Description: GXDE Kernel HWE For loong64
 
 Package: linux-kernel-gxde-riscv64
 Architecture: riscv64
