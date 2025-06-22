@@ -31,8 +31,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-amd64,
- linux-headers-amd64,
+ linux-image-amd64 | linux-image-deepin-amd64,
+ linux-headers-amd64 | linux-headers-deepin-amd64,
 Description: GXDE Kernel For amd64
 
 Package: linux-kernel-fslong-amd64
@@ -49,8 +49,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.1.0-33-amd64,
- linux-headers-6.1.0-33-amd64,
+ linux-image-6.1.0-33-amd64 | linux-image-deepin-hwe-amd64,
+ linux-headers-6.1.0-33-amd64 | linux-headers-deepin-hwe-amd64,
 Description: GXDE Kernel For amd64
 
 Package: linux-kernel-gxde-arm64
@@ -58,8 +58,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.12.23-gxde-hwe-hisilicon,
- linux-image-6.12.23-gxde-hwe-hisilicon,
+ linux-headers-6.12.23-gxde-hwe-hisilicon | linux-image-deepin-arm64,
+ linux-image-6.12.23-gxde-hwe-hisilicon | linux-headers-deepin-arm64,
 Description: GXDE Kernel For arm64
 
 Package: linux-kernel-oldstable-gxde-arm64
@@ -67,8 +67,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-arm64,
- linux-headers-arm64,
+ linux-image-arm64 | linux-image-deepin-hwe-arm64,
+ linux-headers-arm64 | linux-image-deepin-hwe-arm64,
 Description: GXDE Kernel For arm64 (debian)
 
 Package: linux-kernel-phytium-gxde-arm64
@@ -130,6 +130,33 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-riscv64,
- linux-headers-riscv64
+ linux-image-riscv64 | linux-image-deepin-riscv64,
+ linux-headers-riscv64 | linux-headers-deepin-riscv64
 Description: GXDE Kernel For loong64
+
+Package: linux-kernel-hwe-gxde-amd64
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-deepin-hwe-amd64,
+ linux-headers-deepin-hwe-amd64,
+Description: GXDE Kernel HWE For amd64
+
+Package: linux-kernel-hwe-gxde-arm64
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-deepin-hwe-arm64,
+ linux-headers-deepin-hwe-arm64,
+Description: GXDE Kernel HWE For arm64
+
+Package: linux-kernel-hwe-gxde-riscv64
+Architecture: riscv64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-deepin-hwe-riscv64,
+ linux-headers-deepin-hwe-riscv64,
+Description: GXDE Kernel HWE For riscv64
