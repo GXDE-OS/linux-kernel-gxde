@@ -40,8 +40,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.15.0-dppve+,
- linux-image-6.15.0-dppve+,
+ linux-headers-6.15.3-zen-dppve+,
+ linux-image-6.15.3-zen-dppve+,
 Description: fslong Kernel For amd64
 
 Package: linux-kernel-oldstable-gxde-amd64

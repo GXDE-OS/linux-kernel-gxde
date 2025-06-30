@@ -1,4 +1,4 @@
-linux-kernel-gxde (2025.06.22) UNRELEASED; urgency=medium
+linux-kernel-gxde (2025.06.30) UNRELEASED; urgency=medium
 
   * Update: arm kernel and phytium and armbian(Image)
   * 修复 mips 架构虚包依赖错误的问题
