@@ -1,4 +1,4 @@
-linux-kernel-gxde (2025.06.30) UNRELEASED; urgency=medium
+linux-kernel-gxde (2025.07.23) UNRELEASED; urgency=medium
 
   * Update: arm kernel and phytium and armbian(Image)
   * 修复 mips 架构虚包依赖错误的问题
@@ -11,5 +11,6 @@ linux-kernel-gxde (2025.06.30) UNRELEASED; urgency=medium
   * 新增 linux-kernel-fslong-amd64 虚包
   * 新增 linux-kernel-hwe-gxde-loong64
   * 补充 hwe-kernel
+  * 更新 linux-kernel-fslong-amd64 内核版本至 6.15.7
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 22 Jun 2025 09:57:09 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 23 Jul 2025 09:48:41 +0800
