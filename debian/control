@@ -49,8 +49,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.1.0-37-amd64 | linux-image-deepin-hwe-amd64,
- linux-headers-6.1.0-37-amd64 | linux-headers-deepin-hwe-amd64,
+ linux-image-6.6.101-deepin-amd64-gxde-desktop | linux-image-deepin-hwe-amd64,
+ linux-headers-6.6.101-deepin-amd64-gxde-desktop | linux-headers-deepin-hwe-amd64,
 Description: GXDE Kernel For amd64
 
 Package: linux-kernel-gxde-arm64
