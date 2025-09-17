@@ -76,8 +76,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.6.105-gxde-phytium-hwe
- linux-image-6.6.105-gxde-phytium-hwe
+ linux-image-6.6.63-phytium-embedded-gxde,
+ linux-headers-6.6.63-phytium-embedded-gxde
 Description: GXDE Kernel For phytium (debian)
 
 Package: linux-kernel-armbian-gxde-arm64
