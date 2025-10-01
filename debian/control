@@ -157,6 +157,6 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-deepin-hwe-riscv64,
- linux-headers-deepin-hwe-riscv64,
+ linux-image-deepin-hwe-riscv64 | linux-image-6.6.105-deepin-riscv64-gxde-desktop,
+ linux-headers-deepin-hwe-riscv64 | linux-headers-6.6.105-deepin-riscv64-gxde-desktop,
 Description: GXDE Kernel HWE For riscv64

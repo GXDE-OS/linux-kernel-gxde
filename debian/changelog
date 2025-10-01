@@ -1,4 +1,4 @@
-linux-kernel-gxde (2025.09.18) UNRELEASED; urgency=medium
+linux-kernel-gxde (2025.10.01) UNRELEASED; urgency=medium
 
   * Update: 把飞腾内核修改为embedded版
   * 修复 mips 架构虚包依赖错误的问题
@@ -15,5 +15,6 @@ linux-kernel-gxde (2025.09.18) UNRELEASED; urgency=medium
   * 更新 GXDE 15 oldstable 内核
   * 更新 fslong 内核版本
   * 更新 amd64 oldstable 版本号
+  * 修改 linux-kernel-hwe-gxde-riscv64 依赖
 
- -- gfdgd_xi <3025613752@qq.com>  Mon, 15 Sep 2025 22:09:55 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 01 Oct 2025 14:46:30 +0800
