@@ -132,7 +132,16 @@ Depends:
  ${misc:Depends},
  linux-image-riscv64 | linux-image-deepin-riscv64,
  linux-headers-riscv64 | linux-headers-deepin-riscv64
-Description: GXDE Kernel For loong64
+Description: GXDE Kernel For riscv64
+
+Package: linux-kernel-oldstable-gxde-riscv64
+Architecture: riscv64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.113-deepin-riscv64-gxde-desktop,
+ linux-headers-6.6.113-deepin-riscv64-gxde-desktop,
+Description: GXDE Kernel For riscv64
 
 Package: linux-kernel-hwe-gxde-amd64
 Architecture: amd64
