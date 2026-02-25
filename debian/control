@@ -13,8 +13,8 @@ Architecture: i386
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-686,
- linux-headers-686,
+ linux-headers-6.1.0-43-686,
+ linux-image-6.1.0-43-686
 Description: GXDE Kernel For i386
 
 Package: linux-kernel-oldstable-gxde-i386
@@ -22,8 +22,8 @@ Architecture: i386
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.1.0-37-686,
- linux-headers-6.1.0-37-686,
+ linux-headers-6.1.0-43-686,
+ linux-image-6.1.0-43-686
 Description: GXDE Kernel For i386
 
 Package: linux-kernel-gxde-amd64
