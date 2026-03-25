@@ -33,9 +33,6 @@ Depends:
  ${misc:Depends},
  linux-image-amd64 | linux-image-deepin-amd64,
  linux-headers-amd64 | linux-headers-deepin-amd64,
-Conflicts: 
- deepin-anything-dkms,
- deepin-anything-server
 Description: GXDE Kernel For amd64
 
 Package: linux-kernel-fslong-amd64
