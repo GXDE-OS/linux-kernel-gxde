@@ -1,4 +1,4 @@
-linux-kernel-gxde (2026.03.29) UNRELEASED; urgency=medium
+linux-kernel-gxde (2026.04.06) UNRELEASED; urgency=medium
 
   * Update: 把飞腾内核修改为embedded版
   * 修复 mips 架构虚包依赖错误的问题
@@ -22,5 +22,6 @@ linux-kernel-gxde (2026.03.29) UNRELEASED; urgency=medium
   * 更新 i386 内核版本
   * 紧急推更新，设置与 6.19 内核冲突
   * 移除 deepin anything 冲突
+  * 更新 6.6 和 6.18 内核
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 29 Mar 2026 08:42:38 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Mon, 06 Apr 2026 12:44:17 +0800
