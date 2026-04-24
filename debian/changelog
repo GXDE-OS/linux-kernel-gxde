@@ -1,4 +1,4 @@
-linux-kernel-gxde (2026.04.18) UNRELEASED; urgency=medium
+linux-kernel-gxde (2026.04.24) UNRELEASED; urgency=medium
 
   * Update: 把飞腾内核修改为embedded版
   * 修复 mips 架构虚包依赖错误的问题
@@ -25,5 +25,6 @@ linux-kernel-gxde (2026.04.18) UNRELEASED; urgency=medium
   * 更新 6.6 和 6.18 内核
   * amd64 默认内核修改为 6.18 而不跟随 Debian Backport 进行滚动
   * 修改 Section 类型
+  * 更新 6.6.134、6.18.23 内核
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 18 Apr 2026 07:25:28 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Fri, 24 Apr 2026 20:30:45 +0800

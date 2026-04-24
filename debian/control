@@ -31,35 +31,32 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.20-amd64-gxde-desktop | linux-image-deepin-amd64,
- linux-headers-6.18.20-amd64-gxde-desktop | linux-headers-deepin-amd64,
+ linux-image-6.18.23-amd64-gxde-desktop | linux-image-deepin-amd64,
+ linux-headers-6.18.23-amd64-gxde-desktop | linux-headers-deepin-amd64,
+Replaces:
+ linux-image-amd64,
+ linux-headers-amd64
+Provides:
+ linux-image-amd64,
+ linux-headers-amd64
 Description: GXDE Kernel For amd64
-
-Package: linux-kernel-fslong-amd64
-Architecture: amd64
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-headers-6.16.0-zen-dppve+,
- linux-image-6.16.0-zen-dppve+,
-Description: fslong Kernel For amd64
 
 Package: linux-kernel-oldstable-gxde-amd64
 Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.130-amd64-gxde-desktop | linux-image-deepin-hwe-amd64,
- linux-headers-6.6.130-amd64-gxde-desktop | linux-headers-deepin-hwe-amd64,
-Description: GXDE Kernel For amd64
+ linux-image-6.6.134-amd64-gxde-desktop | linux-image-deepin-hwe-amd64,
+ linux-headers-6.6.134-amd64-gxde-desktop | linux-headers-deepin-hwe-amd64,
+Description: GXDE Oldstable Kernel For amd64
 
 Package: linux-kernel-gxde-arm64
 Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.18.20-arm64-gxde-desktop | linux-image-deepin-arm64,
- linux-image-6.18.20-arm64-gxde-desktop | linux-headers-deepin-arm64,
+ linux-headers-6.18.23-arm64-gxde-desktop | linux-image-deepin-arm64,
+ linux-image-6.18.23-arm64-gxde-desktop | linux-headers-deepin-arm64,
 Description: GXDE Kernel For arm64
 
 Package: linux-kernel-oldstable-gxde-arm64
@@ -67,9 +64,9 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-arm64 | linux-image-deepin-hwe-arm64,
- linux-headers-arm64 | linux-image-deepin-hwe-arm64,
-Description: GXDE Kernel For arm64 (debian)
+ linux-image-6.6.134-arm64-gxde-desktop | linux-image-deepin-hwe-arm64,
+ linux-headers-6.6.134-arm64-gxde-desktop | linux-headers-deepin-hwe-arm64,
+Description: GXDE Oldstable Kernel For arm64 (debian)
 
 Package: linux-kernel-phytium-gxde-arm64
 Architecture: arm64
@@ -103,18 +100,27 @@ Architecture: mips64el
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.130-mips64el-gxde-desktop,
- linux-image-6.6.130-mips64el-gxde-desktop
-Description: GXDE Kernel For mips64el
+ linux-image-6.6.134-mips64el-gxde-desktop,
+ linux-image-6.6.134-mips64el-gxde-desktop
+Description: GXDE Oldstable Kernel For mips64el
 
 Package: linux-kernel-gxde-loong64
 Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-loong64 | linux-image-deepin-loong64,
- linux-headers-loong64 | linux-headers-deepin-loong64,
+ linux-image-6.18.23-loong64-gxde-desktop | linux-image-deepin-loong64,
+ linux-headers-6.18.23-loong64-gxde-desktop | linux-headers-deepin-loong64,
 Description: GXDE Kernel For loong64
+
+Package: linux-kernel-oldstable-gxde-loong64
+Architecture: loong64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.134-loong64-gxde-desktop | linux-image-deepin-loong64,
+ linux-headers-6.6.134-loong64-gxde-desktop | linux-headers-deepin-loong64,
+Description: GXDE Oldstable Kernel For loong64
 
 Package: linux-kernel-hwe-gxde-loong64
 Architecture: loong64
@@ -130,8 +136,8 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-riscv64 | linux-image-deepin-riscv64,
- linux-headers-riscv64 | linux-headers-deepin-riscv64
+ linux-image-6.18.23-riscv64-gxde-desktop | linux-image-deepin-riscv64,
+ linux-headers-6.18.23-riscv64-gxde-desktop | linux-headers-deepin-riscv64
 Description: GXDE Kernel For riscv64
 
 Package: linux-kernel-oldstable-gxde-riscv64
@@ -139,9 +145,9 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.130-riscv64-gxde-desktop,
- linux-headers-6.6.130-riscv64-gxde-desktop,
-Description: GXDE Kernel For riscv64
+ linux-image-6.6.134-riscv64-gxde-desktop,
+ linux-headers-6.6.134-riscv64-gxde-desktop,
+Description: GXDE Oldstable Kernel For riscv64
 
 Package: linux-kernel-hwe-gxde-amd64
 Architecture: amd64
@@ -166,6 +172,6 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-deepin-hwe-riscv64 | linux-image-6.6.130-riscv64-gxde-desktop,
- linux-headers-deepin-hwe-riscv64 | linux-headers-6.6.130-riscv64-gxde-desktop,
+ linux-image-deepin-hwe-riscv64 | linux-image-6.6.134-riscv64-gxde-desktop,
+ linux-headers-deepin-hwe-riscv64 | linux-headers-6.6.134-riscv64-gxde-desktop,
 Description: GXDE Kernel HWE For riscv64
