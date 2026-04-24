@@ -8,6 +8,7 @@ Build-Depends:
 Standards-Version: 4.6.2
 Homepage: https://gitee.com/GXDE-OS/linux-kernel-gxde
 
+# i386
 Package: linux-kernel-gxde-i386
 Architecture: i386
 Depends:
@@ -26,6 +27,7 @@ Depends:
  linux-image-6.1.0-43-686
 Description: GXDE Kernel For i386
 
+# amd64
 Package: linux-kernel-gxde-amd64
 Architecture: amd64
 Depends:
@@ -50,6 +52,7 @@ Depends:
  linux-headers-6.6.134-amd64-gxde-desktop | linux-headers-deepin-hwe-amd64,
 Description: GXDE Oldstable Kernel For amd64
 
+# arm64
 Package: linux-kernel-gxde-arm64
 Architecture: arm64
 Depends:
@@ -86,13 +89,23 @@ Depends:
  linux-headers-current-arm64
 Description: GXDE Kernel For phytium (armbian)
 
+# mips64el
 Package: linux-kernel-gxde-mips64el
 Architecture: mips64el
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-4.19.0-loongson-3-desktop,
- linux-headers-4.19.0-loongson-3-desktop
+ linux-image-6.6.134-mips64el-gxde-desktop,
+ linux-image-6.6.134-mips64el-gxde-desktop
+Description: GXDE Kernel For mips64el
+
+Package: linux-kernel-gxde-mips64el-4k-pagesize
+Architecture: mips64el
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.134-mips64el-4k-pagesize-gxde-desktop,
+ linux-headers-6.6.134-mips64el-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For mips64el
 
 Package: linux-kernel-oldstable-gxde-mips64el
@@ -100,10 +113,11 @@ Architecture: mips64el
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.134-mips64el-gxde-desktop,
- linux-image-6.6.134-mips64el-gxde-desktop
+ linux-headers-4.19.0-loongson-3-desktop,
+ linux-image-4.19.0-loongson-3-desktop
 Description: GXDE Oldstable Kernel For mips64el
 
+# loong64
 Package: linux-kernel-gxde-loong64
 Architecture: loong64
 Depends:
@@ -111,6 +125,15 @@ Depends:
  ${misc:Depends},
  linux-image-6.18.23-loong64-gxde-desktop | linux-image-deepin-loong64,
  linux-headers-6.18.23-loong64-gxde-desktop | linux-headers-deepin-loong64,
+Description: GXDE Kernel For loong64
+
+Package: linux-kernel-gxde-loong64-4k-pagesize
+Architecture: loong64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.18.23-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-6.18.23-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-oldstable-gxde-loong64
@@ -122,6 +145,15 @@ Depends:
  linux-headers-6.6.134-loong64-gxde-desktop | linux-headers-deepin-loong64,
 Description: GXDE Oldstable Kernel For loong64
 
+Package: linux-kernel-oldstable-gxde-loong64-4k-pagesize
+Architecture: loong64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.134-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-6.6.134-loong64-4k-pagesize-gxde-desktop,
+Description: GXDE Kernel For loong64
+
 Package: linux-kernel-hwe-gxde-loong64
 Architecture: loong64
 Depends:
@@ -131,6 +163,7 @@ Depends:
  linux-headers-deepin-hwe-loong64,
 Description: GXDE Kernel HWE For loong64
 
+# riscv64
 Package: linux-kernel-gxde-riscv64
 Architecture: riscv64
 Depends:
