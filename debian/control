@@ -69,15 +69,16 @@ Depends:
  ${misc:Depends},
  linux-image-6.6.134-arm64-gxde-desktop | linux-image-deepin-hwe-arm64,
  linux-headers-6.6.134-arm64-gxde-desktop | linux-headers-deepin-hwe-arm64,
+Provides:
+ linux-kernel-phytium-gxde-arm64
+Replaces:
+ linux-kernel-phytium-gxde-arm64
 Description: GXDE Oldstable Kernel For arm64 (debian)
 
 Package: linux-kernel-phytium-gxde-arm64
 Architecture: arm64
 Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.6.63-phytium-embedded-gxde,
- linux-headers-6.6.63-phytium-embedded-gxde,
+ linux-kernel-oldstable-gxde-arm64
 Description: GXDE Kernel For phytium (debian)
 
 Package: linux-kernel-armbian-gxde-arm64
