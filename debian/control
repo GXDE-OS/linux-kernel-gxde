@@ -142,8 +142,10 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-loong64-gxde-desktop | linux-image-deepin-loong64,
- linux-headers-6.6.135-loong64-gxde-desktop | linux-headers-deepin-loong64,
+# linux-image-6.6.135-loong64-gxde-desktop | linux-image-deepin-loong64,
+ linux-image-deepin-hwe-loong64,
+# linux-headers-6.6.135-loong64-gxde-desktop | linux-headers-deepin-loong64,
+ linux-headers-deepin-hwe-loong64,
 Description: GXDE Oldstable Kernel For loong64
 
 Package: linux-kernel-oldstable-gxde-loong64-4k-pagesize
