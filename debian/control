@@ -14,8 +14,8 @@ Architecture: i386
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.25-i386-gxde-desktop,
- linux-headers-6.18.25-i386-gxde-desktop,
+ linux-image-6.18.27-i386-gxde-desktop,
+ linux-headers-6.18.27-i386-gxde-desktop,
 Description: GXDE Kernel For i386
 
 Package: linux-kernel-oldstable-gxde-i386
@@ -23,8 +23,8 @@ Architecture: i386
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-i386-gxde-desktop,
- linux-headers-6.6.135-i386-gxde-desktop,
+ linux-image-6.6.138-i386-gxde-desktop,
+ linux-headers-6.6.138-i386-gxde-desktop,
 Description: GXDE Kernel For i386
 
 # amd64
@@ -33,8 +33,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.25-amd64-gxde-desktop | linux-image-deepin-amd64,
- linux-headers-6.18.25-amd64-gxde-desktop | linux-headers-deepin-amd64,
+ linux-image-6.18.27-amd64-gxde-desktop | linux-image-deepin-amd64,
+ linux-headers-6.18.27-amd64-gxde-desktop | linux-headers-deepin-amd64,
 Replaces:
  linux-image-amd64,
  linux-headers-amd64
@@ -48,8 +48,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-amd64-gxde-desktop | linux-image-deepin-hwe-amd64,
- linux-headers-6.6.135-amd64-gxde-desktop | linux-headers-deepin-hwe-amd64,
+ linux-image-6.6.138-amd64-gxde-desktop | linux-image-deepin-hwe-amd64,
+ linux-headers-6.6.138-amd64-gxde-desktop | linux-headers-deepin-hwe-amd64,
 Description: GXDE Oldstable Kernel For amd64
 
 # arm64
@@ -58,8 +58,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.18.25-arm64-gxde-desktop | linux-image-deepin-arm64,
- linux-image-6.18.25-arm64-gxde-desktop | linux-headers-deepin-arm64,
+ linux-headers-6.18.27-arm64-gxde-desktop | linux-image-deepin-arm64,
+ linux-image-6.18.27-arm64-gxde-desktop | linux-headers-deepin-arm64,
 Description: GXDE Kernel For arm64
 
 Package: linux-kernel-oldstable-gxde-arm64
@@ -67,8 +67,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-arm64-gxde-desktop | linux-image-deepin-hwe-arm64,
- linux-headers-6.6.135-arm64-gxde-desktop | linux-headers-deepin-hwe-arm64,
+ linux-image-6.6.138-arm64-gxde-desktop | linux-image-deepin-hwe-arm64,
+ linux-headers-6.6.138-arm64-gxde-desktop | linux-headers-deepin-hwe-arm64,
 Provides:
  linux-kernel-phytium-gxde-arm64
 Replaces:
@@ -96,8 +96,8 @@ Architecture: mips64el
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-mips64el-gxde-desktop,
- linux-image-6.6.135-mips64el-gxde-desktop
+ linux-image-6.6.138-mips64el-gxde-desktop,
+ linux-image-6.6.138-mips64el-gxde-desktop
 Description: GXDE Kernel For mips64el
 
 Package: linux-kernel-gxde-mips64el-4k-pagesize
@@ -105,8 +105,8 @@ Architecture: mips64el
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-mips64el-4k-pagesize-gxde-desktop,
- linux-headers-6.6.135-mips64el-4k-pagesize-gxde-desktop,
+ linux-image-6.6.138-mips64el-4k-pagesize-gxde-desktop,
+ linux-headers-6.6.138-mips64el-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For mips64el
 
 Package: linux-kernel-oldstable-gxde-mips64el
@@ -124,8 +124,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.25-loong64-gxde-desktop | linux-image-deepin-loong64,
- linux-headers-6.18.25-loong64-gxde-desktop | linux-headers-deepin-loong64,
+ linux-image-6.18.27-loong64-gxde-desktop | linux-image-deepin-loong64,
+ linux-headers-6.18.27-loong64-gxde-desktop | linux-headers-deepin-loong64,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-gxde-loong64-4k-pagesize
@@ -133,8 +133,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.25-loong64-4k-pagesize-gxde-desktop,
- linux-headers-6.18.25-loong64-4k-pagesize-gxde-desktop,
+ linux-image-6.18.27-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-6.18.27-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-oldstable-gxde-loong64
@@ -142,9 +142,9 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
-# linux-image-6.6.135-loong64-gxde-desktop | linux-image-deepin-loong64,
+# linux-image-6.6.138-loong64-gxde-desktop | linux-image-deepin-loong64,
  linux-image-deepin-hwe-loong64,
-# linux-headers-6.6.135-loong64-gxde-desktop | linux-headers-deepin-loong64,
+# linux-headers-6.6.138-loong64-gxde-desktop | linux-headers-deepin-loong64,
  linux-headers-deepin-hwe-loong64,
 Description: GXDE Oldstable Kernel For loong64
 
@@ -153,8 +153,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-loong64-4k-pagesize-gxde-desktop,
- linux-headers-6.6.135-loong64-4k-pagesize-gxde-desktop,
+ linux-image-6.6.138-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-6.6.138-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-hwe-gxde-loong64
@@ -172,8 +172,8 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.25-riscv64-gxde-desktop | linux-image-deepin-riscv64,
- linux-headers-6.18.25-riscv64-gxde-desktop | linux-headers-deepin-riscv64
+ linux-image-6.18.27-riscv64-gxde-desktop | linux-image-deepin-riscv64,
+ linux-headers-6.18.27-riscv64-gxde-desktop | linux-headers-deepin-riscv64
 Description: GXDE Kernel For riscv64
 
 Package: linux-kernel-oldstable-gxde-riscv64
@@ -181,8 +181,8 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.135-riscv64-gxde-desktop,
- linux-headers-6.6.135-riscv64-gxde-desktop,
+ linux-image-6.6.138-riscv64-gxde-desktop,
+ linux-headers-6.6.138-riscv64-gxde-desktop,
 Description: GXDE Oldstable Kernel For riscv64
 
 Package: linux-kernel-hwe-gxde-amd64
@@ -208,6 +208,6 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-deepin-hwe-riscv64 | linux-image-6.6.135-riscv64-gxde-desktop,
- linux-headers-deepin-hwe-riscv64 | linux-headers-6.6.135-riscv64-gxde-desktop,
+ linux-image-deepin-hwe-riscv64 | linux-image-6.6.138-riscv64-gxde-desktop,
+ linux-headers-deepin-hwe-riscv64 | linux-headers-6.6.138-riscv64-gxde-desktop,
 Description: GXDE Kernel HWE For riscv64
