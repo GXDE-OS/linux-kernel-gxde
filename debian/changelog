@@ -1,4 +1,4 @@
-linux-kernel-gxde (2026.05.04) UNRELEASED; urgency=medium
+linux-kernel-gxde (2026.05.09) UNRELEASED; urgency=medium
 
   * Update: 把飞腾内核修改为embedded版
   * 修复 mips 架构虚包依赖错误的问题
@@ -29,4 +29,4 @@ linux-kernel-gxde (2026.05.04) UNRELEASED; urgency=medium
   * 将 linux-kernel-phytium-gxde-arm64 指向 linux-kernel-oldstable-gxde-arm64
   * 更新 6.6.137、6.18.27 内核，修复 CVE-2026-31431、CVE-2026-43284
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 09 May 2026 08:29:39 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 09 May 2026 13:36:02 +0800
