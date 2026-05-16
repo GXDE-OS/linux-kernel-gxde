@@ -1,32 +1,5 @@
-linux-kernel-gxde (2026.05.09) UNRELEASED; urgency=medium
+linux-kernel-gxde (2026.05.16) UNRELEASED; urgency=medium
 
-  * Update: 把飞腾内核修改为embedded版
-  * 修复 mips 架构虚包依赖错误的问题
-  * Update: arm 6.12.8
-  * 更新 i386、amd64 oldstable 内核
-  * 新增 loongnix 内核
-  * 更新 arm hisilicon 内核 6.12.23，支持zram-swap
-  * 更新 oldstable
-  * 更新 phytium 内核
-  * 新增 linux-kernel-fslong-amd64 虚包
-  * 新增 linux-kernel-hwe-gxde-loong64
-  * 补充 hwe-kernel
-  * 更新 linux-kernel-fslong-amd64 内核版本至 6.15.7
-  * 更新 GXDE 15 oldstable 内核
-  * 更新 fslong 内核版本
-  * 更新 amd64 oldstable 版本号
-  * 修改 linux-kernel-hwe-gxde-riscv64 依赖
-  * 更新内核至 6.6.113
-  * 新增 linux-kernel-oldstable-gxde-riscv64
-  * 更新 6.6.122 内核
-  * 更新 i386 内核版本
-  * 紧急推更新，设置与 6.19 内核冲突
-  * 移除 deepin anything 冲突
-  * 更新 6.6 和 6.18 内核
-  * amd64 默认内核修改为 6.18 而不跟随 Debian Backport 进行滚动
-  * 修改 Section 类型
-  * 更新 6.6.134、6.18.23 内核
-  * 将 linux-kernel-phytium-gxde-arm64 指向 linux-kernel-oldstable-gxde-arm64
-  * 更新 6.6.137、6.18.27 内核，修复 CVE-2026-31431、CVE-2026-43284
+  * 更新 6.6.137、6.18.30 内核
 
- -- gfdgd_xi <3025613752@qq.com>  Sat, 09 May 2026 13:36:02 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Sat, 16 May 2026 18:55:50 +0800
