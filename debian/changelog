@@ -1,5 +1,5 @@
-linux-kernel-gxde (2026.07.05) UNRELEASED; urgency=medium
+linux-kernel-gxde (2026.07.09) UNRELEASED; urgency=medium
 
-  * 更新 6.6.143、6.18.37 内核
+  * 更新 6.6.144、6.18.38 内核
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 05 Jul 2026 08:55:32 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Thu, 09 Jul 2026 19:01:55 +0800
