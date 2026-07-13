@@ -75,20 +75,14 @@ Replaces:
  linux-kernel-phytium-gxde-arm64
 Description: GXDE Oldstable Kernel For arm64 (debian)
 
-Package: linux-kernel-phytium-gxde-arm64
-Architecture: arm64
-Depends:
- linux-kernel-oldstable-gxde-arm64
-Description: GXDE Kernel For phytium (debian)
-
-Package: linux-kernel-armbian-gxde-arm64
+Package: linux-kernel-pangu-m900-arm64
 Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-current-arm64,
- linux-headers-current-arm64
-Description: GXDE Kernel For phytium (armbian)
+ linux-image-4.19.90-arm64-desktop,
+ linux-headers-4.19.90-arm64-desktop,
+Description: GXDE Kernel For Pangu m900 soc
 
 # mips64el
 Package: linux-kernel-gxde-mips64el
