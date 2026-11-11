@@ -8,7 +8,7 @@ Build-Depends:
 Standards-Version: 4.6.2
 Homepage: https://gitee.com/GXDE-OS/linux-kernel-gxde
 
-# i386
+
 Package: linux-kernel-gxde-i386
 Architecture: i386
 Depends:
@@ -18,16 +18,6 @@ Depends:
  linux-headers-6.18.60-i386-gxde-desktop,
 Description: GXDE Kernel For i386
 
-Package: linux-kernel-oldstable-gxde-i386
-Architecture: i386
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.6.160-i386-gxde-desktop,
- linux-headers-6.6.160-i386-gxde-desktop,
-Description: GXDE Kernel For i386
-
-# amd64
 Package: linux-kernel-gxde-amd64
 Architecture: amd64
 Depends:
@@ -43,16 +33,6 @@ Provides:
  linux-headers-amd64
 Description: GXDE Kernel For amd64
 
-Package: linux-kernel-oldstable-gxde-amd64
-Architecture: amd64
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.6.160-amd64-gxde-desktop,
- linux-headers-6.6.160-amd64-gxde-desktop,
-Description: GXDE Oldstable Kernel For amd64
-
-# arm64
 Package: linux-kernel-gxde-arm64
 Architecture: arm64
 Depends:
@@ -62,30 +42,6 @@ Depends:
  linux-image-6.18.60-arm64-gxde-desktop,
 Description: GXDE Kernel For arm64
 
-Package: linux-kernel-oldstable-gxde-arm64
-Architecture: arm64
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.6.160-arm64-gxde-desktop,
- linux-headers-6.6.160-arm64-gxde-desktop,
-Provides:
- linux-kernel-phytium-gxde-arm64
-Replaces:
- linux-kernel-phytium-gxde-arm64
-Description: GXDE Oldstable Kernel For arm64 (debian)
-
-Package: linux-kernel-pangu-m900-arm64
-Architecture: arm64
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-5.4.18-hw15-pangu,
- linux-headers-5.4.18-hw15-pangu,
- gxde-disable-security-boot,
-Description: GXDE Kernel For Pangu m900 soc
-
-# loong64
 Package: linux-kernel-gxde-loong64
 Architecture: loong64
 Depends:
@@ -103,6 +59,46 @@ Depends:
  linux-image-6.18.60-loong64-4k-pagesize-gxde-desktop,
  linux-headers-6.18.60-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
+
+Package: linux-kernel-gxde-riscv64
+Architecture: riscv64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.18.60-riscv64-gxde-desktop,
+ linux-headers-6.18.60-riscv64-gxde-desktop
+Description: GXDE Kernel For riscv64
+
+Package: linux-kernel-oldstable-gxde-i386
+Architecture: i386
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.160-i386-gxde-desktop,
+ linux-headers-6.6.160-i386-gxde-desktop,
+Description: GXDE Kernel For i386
+
+Package: linux-kernel-oldstable-gxde-amd64
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.160-amd64-gxde-desktop,
+ linux-headers-6.6.160-amd64-gxde-desktop,
+Description: GXDE Oldstable Kernel For amd64
+
+Package: linux-kernel-oldstable-gxde-arm64
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-6.6.160-arm64-gxde-desktop,
+ linux-headers-6.6.160-arm64-gxde-desktop,
+Provides:
+ linux-kernel-phytium-gxde-arm64
+Replaces:
+ linux-kernel-phytium-gxde-arm64
+Description: GXDE Oldstable Kernel For arm64 (debian)
 
 Package: linux-kernel-oldstable-gxde-loong64
 Architecture: loong64
@@ -122,25 +118,6 @@ Depends:
  linux-headers-6.6.160-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
 
-Package: linux-kernel-hwe-gxde-loong64
-Architecture: loong64
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-deepin-hwe-loong64,
- linux-headers-deepin-hwe-loong64,
-Description: GXDE Kernel HWE For loong64
-
-# riscv64
-Package: linux-kernel-gxde-riscv64
-Architecture: riscv64
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.18.60-riscv64-gxde-desktop,
- linux-headers-6.18.60-riscv64-gxde-desktop
-Description: GXDE Kernel For riscv64
-
 Package: linux-kernel-oldstable-gxde-riscv64
 Architecture: riscv64
 Depends:
@@ -149,3 +126,73 @@ Depends:
  linux-image-6.6.160-riscv64-gxde-desktop,
  linux-headers-6.6.160-riscv64-gxde-desktop,
 Description: GXDE Oldstable Kernel For riscv64
+
+Package: linux-kernel-testing-gxde-i386
+Architecture: i386
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-headers-7.3.4-i386-gxde-desktop,
+ linux-image-7.3.4-i386-gxde-desktop,
+Description: GXDE Kernel For i386
+
+Package: linux-kernel-testing-gxde-amd64
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-headers-7.3.4-amd64-gxde-desktop,
+ linux-image-7.3.4-amd64-gxde-desktop,
+Replaces:
+ linux-image-amd64,
+ linux-headers-amd64
+Provides:
+ linux-image-amd64,
+ linux-headers-amd64
+Description: GXDE Kernel For amd64
+
+Package: linux-kernel-testing-gxde-arm64
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-headers-7.3.4-arm64-gxde-desktop,
+ linux-image-7.3.4-arm64-gxde-desktop,
+Description: GXDE Kernel For arm64
+
+Package: linux-kernel-testing-gxde-loong64
+Architecture: loong64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-7.3.4-loong64-gxde-desktop,
+ linux-headers-7.3.4-loong64-gxde-desktop,
+Description: GXDE Kernel For loong64
+
+Package: linux-kernel-testing-gxde-loong64-4k-pagesize
+Architecture: loong64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-7.3.4-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-7.3.4-loong64-4k-pagesize-gxde-desktop,
+Description: GXDE Kernel For loong64
+
+Package: linux-kernel-testing-gxde-riscv64
+Architecture: riscv64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-7.3.4-riscv64-gxde-desktop,
+ linux-headers-7.3.4-riscv64-gxde-desktop
+Description: GXDE Kernel For riscv64
+
+Package: linux-kernel-pangu-m900-arm64
+Architecture: arm64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends},
+ linux-image-5.4.18-hw15-pangu,
+ linux-headers-5.4.18-hw15-pangu,
+ gxde-disable-security-boot,
+Description: GXDE Kernel For Pangu m900 soc
