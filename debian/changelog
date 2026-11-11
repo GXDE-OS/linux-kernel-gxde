@@ -1,6 +1,6 @@
-linux-kernel-gxde (2026.11.06) UNRELEASED; urgency=medium
+linux-kernel-gxde (2026.11.11) UNRELEASED; urgency=medium
 
-  * 更新 6.6.160、6.18.60 内核
+  * 更新 6.6.161、6.18.60、7.3.4 内核
   * 更新盘古m900内核
 
- -- gfdgd_xi <3025613752@qq.com>  Fri, 06 Nov 2026 23:16:53 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Wed, 11 Nov 2026 22:13:08 +0800
