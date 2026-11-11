@@ -74,8 +74,8 @@ Architecture: i386
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.160-i386-gxde-desktop,
- linux-headers-6.6.160-i386-gxde-desktop,
+ linux-image-6.6.161-i386-gxde-desktop,
+ linux-headers-6.6.161-i386-gxde-desktop,
 Description: GXDE Kernel For i386
 
 Package: linux-kernel-oldstable-gxde-amd64
@@ -83,8 +83,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.160-amd64-gxde-desktop,
- linux-headers-6.6.160-amd64-gxde-desktop,
+ linux-image-6.6.161-amd64-gxde-desktop,
+ linux-headers-6.6.161-amd64-gxde-desktop,
 Description: GXDE Oldstable Kernel For amd64
 
 Package: linux-kernel-oldstable-gxde-arm64
@@ -92,8 +92,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.160-arm64-gxde-desktop,
- linux-headers-6.6.160-arm64-gxde-desktop,
+ linux-image-6.6.161-arm64-gxde-desktop,
+ linux-headers-6.6.161-arm64-gxde-desktop,
 Provides:
  linux-kernel-phytium-gxde-arm64
 Replaces:
@@ -105,8 +105,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.160-loong64-gxde-desktop,
- linux-headers-6.6.160-loong64-gxde-desktop,
+ linux-image-6.6.161-loong64-gxde-desktop,
+ linux-headers-6.6.161-loong64-gxde-desktop,
 Description: GXDE Oldstable Kernel For loong64
 
 Package: linux-kernel-oldstable-gxde-loong64-4k-pagesize
@@ -114,8 +114,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.160-loong64-4k-pagesize-gxde-desktop,
- linux-headers-6.6.160-loong64-4k-pagesize-gxde-desktop,
+ linux-image-6.6.161-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-6.6.161-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-oldstable-gxde-riscv64
@@ -123,8 +123,8 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.6.160-riscv64-gxde-desktop,
- linux-headers-6.6.160-riscv64-gxde-desktop,
+ linux-image-6.6.161-riscv64-gxde-desktop,
+ linux-headers-6.6.161-riscv64-gxde-desktop,
 Description: GXDE Oldstable Kernel For riscv64
 
 Package: linux-kernel-testing-gxde-i386
