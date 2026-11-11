@@ -85,34 +85,6 @@ Depends:
  gxde-disable-security-boot,
 Description: GXDE Kernel For Pangu m900 soc
 
-# mips64el
-Package: linux-kernel-gxde-mips64el
-Architecture: mips64el
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.6.160-mips64el-gxde-desktop,
- linux-image-6.6.160-mips64el-gxde-desktop
-Description: GXDE Kernel For mips64el
-
-Package: linux-kernel-gxde-mips64el-4k-pagesize
-Architecture: mips64el
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-image-6.6.160-mips64el-4k-pagesize-gxde-desktop,
- linux-headers-6.6.160-mips64el-4k-pagesize-gxde-desktop,
-Description: GXDE Kernel For mips64el
-
-Package: linux-kernel-oldstable-gxde-mips64el
-Architecture: mips64el
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- linux-headers-4.19.0-loongson-3-desktop,
- linux-image-4.19.0-loongson-3-desktop
-Description: GXDE Oldstable Kernel For mips64el
-
 # loong64
 Package: linux-kernel-gxde-loong64
 Architecture: loong64
