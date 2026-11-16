@@ -14,8 +14,8 @@ Architecture: i386
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.60-i386-gxde-desktop,
- linux-headers-6.18.60-i386-gxde-desktop,
+ linux-image-6.18.63-i386-gxde-desktop,
+ linux-headers-6.18.63-i386-gxde-desktop,
 Description: GXDE Kernel For i386
 
 Package: linux-kernel-gxde-amd64
@@ -23,8 +23,8 @@ Architecture: amd64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.60-amd64-gxde-desktop,
- linux-headers-6.18.60-amd64-gxde-desktop,
+ linux-image-6.18.63-amd64-gxde-desktop,
+ linux-headers-6.18.63-amd64-gxde-desktop,
 Replaces:
  linux-image-amd64,
  linux-headers-amd64
@@ -38,8 +38,8 @@ Architecture: arm64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-headers-6.18.60-arm64-gxde-desktop,
- linux-image-6.18.60-arm64-gxde-desktop,
+ linux-headers-6.18.63-arm64-gxde-desktop,
+ linux-image-6.18.63-arm64-gxde-desktop,
 Description: GXDE Kernel For arm64
 
 Package: linux-kernel-gxde-loong64
@@ -47,8 +47,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.60-loong64-gxde-desktop,
- linux-headers-6.18.60-loong64-gxde-desktop,
+ linux-image-6.18.63-loong64-gxde-desktop,
+ linux-headers-6.18.63-loong64-gxde-desktop,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-gxde-loong64-4k-pagesize
@@ -56,8 +56,8 @@ Architecture: loong64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.60-loong64-4k-pagesize-gxde-desktop,
- linux-headers-6.18.60-loong64-4k-pagesize-gxde-desktop,
+ linux-image-6.18.63-loong64-4k-pagesize-gxde-desktop,
+ linux-headers-6.18.63-loong64-4k-pagesize-gxde-desktop,
 Description: GXDE Kernel For loong64
 
 Package: linux-kernel-gxde-riscv64
@@ -65,8 +65,8 @@ Architecture: riscv64
 Depends:
  ${shlibs:Depends},
  ${misc:Depends},
- linux-image-6.18.60-riscv64-gxde-desktop,
- linux-headers-6.18.60-riscv64-gxde-desktop
+ linux-image-6.18.63-riscv64-gxde-desktop,
+ linux-headers-6.18.63-riscv64-gxde-desktop
 Description: GXDE Kernel For riscv64
 
 Package: linux-kernel-oldstable-gxde-i386
